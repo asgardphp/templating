@@ -1,0 +1,21 @@
+{
+	"name": "asgard/http",
+	"license": "MIT",
+	"authors": [{
+		"name": "Michel Hognerud",
+		"email": "michel@hognerud.net"
+	}],
+    "autoload": {
+        "psr-4": {"Asgard\\Http\\": "."}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "doctrine/annotations": "1.*",
+        "doctrine/cache": "1.*",
+        "asgard/common": "dev-master",
+        "asgard/hook": "dev-master",
+        "asgard/container": "dev-master",
+        "asgard/debug": "dev-master",
+        "asgard/templating": "dev-master"
+    }
+}
